@@ -31,10 +31,10 @@ export default function SearchInput(): JSX.Element {
 
 const styles = StyleSheet.create({
     container: {
-        width: "100%",
+        width: "90%",
         flexDirection: "row",
-        paddingLeft: 20,
-        paddingRight: 20,
+        marginLeft: 20,
+        marginRight: 20,
         justifyContent: "space-between",
         alignItems: "center",
     },
@@ -47,13 +47,14 @@ const styles = StyleSheet.create({
         borderRadius: 8,
     },
     button: {
-        flex: 1,
         height: 40,
         justifyContent: "center",
         alignItems: "center",
         marginLeft: 10,
         backgroundColor: "#222",
-        borderRadius: 8
+        borderRadius: 8,
+        paddingLeft: 15,
+        paddingRight: 15
     },
     text: {
         color: "#fff"
