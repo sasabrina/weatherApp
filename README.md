@@ -1,4 +1,4 @@
-# Desafío técnico Ank
+# Desafío técnico Weather App
 
 El desafío consiste en crear una app consumiendo la [API del clima](https://graphql-weather-api.herokuapp.com/.). Se debe mostrar un listado de ciudades indicadas en un array inicial y, al presionar en una, mostrar un detalle más amplio.
 
